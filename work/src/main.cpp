@@ -167,12 +167,12 @@ int main( int argc, char** argv ) {
     
     if(radius == 75){
         // save image
-        imwrite("/Users/petadouglas/Documents/Uni/CGRA352/352\ A4/CGRA352_base/output/core2_75.png", output);
+        imwrite("CGRA352_base/output/core2_75.png", output);
     }
     
     else if (radius == 40){
         // save image
-        imwrite("/Users/petadouglas/Documents/Uni/CGRA352/352\ A4/CGRA352_base/output/core2_40.png", output);
+        imwrite("/CGRA352_base/output/core2_40.png", output);
     }
     
     //completion/challenge
@@ -183,23 +183,23 @@ int main( int argc, char** argv ) {
 
     if(focalLength == 0.70){
         // save image
-        imwrite("/Users/petadouglas/Documents/Uni/CGRA352/352\ A4/CGRA352_base/output/completion1.png", st);
+        imwrite("/CGRA352_base/output/completion1.png", st);
     }
     if(focalLength == 0.75){
         // save image
-        imwrite("/Users/petadouglas/Documents/Uni/CGRA352/352\ A4/CGRA352_base/output/completion2.png", st);
+        imwrite("/CGRA352_base/output/completion2.png", st);
     }
     if(focalLength == 0.80){
         // save image
-        imwrite("/Users/petadouglas/Documents/Uni/CGRA352/352\ A4/CGRA352_base/output/completion3.png", st);
+        imwrite("/CGRA352_base/output/completion3.png", st);
     }
     if(focalLength == 0.85){
         // save image
-        imwrite("/Users/petadouglas/Documents/Uni/CGRA352/352\ A4/CGRA352_base/output/completion4.png", st);
+        imwrite("/CGRA352_base/output/completion4.png", st);
     }
     if(focalLength == 0.90){
         // save image
-        imwrite("/Users/petadouglas/Documents/Uni/CGRA352/352\ A4/CGRA352_base/output/completion5.png", st);
+        imwrite("/CGRA352_base/output/completion5.png", st);
     }
     
     // wait for a keystroke in the window before exiting
